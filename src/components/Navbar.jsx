@@ -1,88 +1,91 @@
-import React, { useState } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import { FaChevronDown, FaGlobe, FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo2.png";
 
 const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const toggleDropdown = (menu) => {
-    setOpenDropdown(openDropdown === menu ? null : menu);
-  };
+  // ✅ Memoize menu items to prevent re-creation on re-renders
+  const menuItems = useMemo(
+    () => [
+      {
+        name: "What We Do",
+        subMenu: ["Consulting", "Technology", "Operations"],
+        showDropdownIcon: true,
+        navigateTo: "/",
+      },
+      { name: "What We Think", navigateTo: "/what-we-think" },
+      { name: "About Aultum", navigateTo: "/about" },
+      { name: "Careers", navigateTo: "/careers" },
+      { name: "Contact Us", navigateTo: "/contact" },
+      { name: "Geographies", navigateTo: "/geographics" },
+      { name: "EN", icon: <FaGlobe className="inline-block mr-1" /> },
+    ],
+    []
+  );
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-    setOpenDropdown(null); // reset dropdown when closing mobile menu
-  };
+  // ✅ Memoized callbacks for stable references
+  const toggleDropdown = useCallback((menu) => {
+    setOpenDropdown((prev) => (prev === menu ? null : menu));
+  }, []);
 
-  const menuItems = [
-    {
-      name: "What We Do",
-      subMenu: ["Consulting", "Technology", "Operations"],
-      showDropdownIcon: true,
-    },
-    { name: "What We Think" }, // no dropdown
-    {
-      name: "About Aultum",
-      subMenu: ["Our Story", "Leadership", "Sustainability"],
-      showDropdownIcon: true,
-    },
-    { name: "Careers" }, // no dropdown
-    { name: "Contact Us" }, // no dropdown
-    { name: "Geographies" }, // no dropdown
-    {
-      name: "EN",
-      subMenu: ["English", "French", "German"],
-      icon: <FaGlobe className="inline-block mr-1" />,
-      showDropdownIcon: true,
-      onlyClick: true, // EN works only on click
-    },
-  ];
+  const toggleMobileMenu = useCallback(() => {
+    setMobileMenuOpen((prev) => !prev);
+    setOpenDropdown(null);
+  }, []);
 
   return (
-    <nav className="bg-white shadow-md p-6 flex justify-evenly items-center relative">
+    <nav className="bg-white shadow-md p-3 flex justify-between sm:justify-evenly items-center relative">
       {/* Logo */}
-      <h1 className="text-xl md:text-2xl font-bold text-blue-600">
-        Aultum
-      </h1>
+      <Link to="/" className="flex items-center" aria-label="Go to homepage">
+        <img
+          src={logo}
+          alt="Aultum Logo"
+          width="180"
+          height="40"
+          className="object-contain"
+          loading="lazy"
+        />
+      </Link>
 
-      {/* Hamburger (Mobile) */}
+      {/* Hamburger Menu (Mobile) */}
       <button
         className="md:hidden text-2xl text-gray-700"
         onClick={toggleMobileMenu}
+        aria-label="Toggle navigation menu"
+        aria-expanded={mobileMenuOpen}
       >
         {mobileMenuOpen ? <FaTimes /> : <FaBars />}
       </button>
 
-      {/* Menu Items */}
+      {/* Menu List */}
       <ul
         className={`${
           mobileMenuOpen
             ? "flex flex-col absolute top-16 left-0 w-full bg-white shadow-md p-6 space-y-4 z-50"
             : "hidden"
         } md:flex md:flex-row md:space-x-6 md:static md:w-auto md:bg-transparent md:shadow-none md:p-0 md:space-y-0 text-gray-700 text-lg`}
+        role="menubar"
       >
-        {menuItems.map((item, index) => (
+        {menuItems.map((item) => (
           <li
-            key={index}
+            key={item.name}
             className="relative group"
-            // Hover only works on desktop for non-EN dropdowns
             onMouseEnter={() =>
-              !mobileMenuOpen &&
-              item.subMenu &&
-              !item.onlyClick &&
-              setOpenDropdown(item.name)
+              !mobileMenuOpen && item.subMenu && setOpenDropdown(item.name)
             }
             onMouseLeave={() =>
-              !mobileMenuOpen &&
-              item.subMenu &&
-              !item.onlyClick &&
-              setOpenDropdown(null)
+              !mobileMenuOpen && item.subMenu && setOpenDropdown(null)
             }
           >
-            {/* Main Link */}
-            <button
+            <Link
+              to={item.navigateTo || "#"}
+              className="flex items-center hover:text-blue-600 font-medium"
               onClick={() => item.subMenu && toggleDropdown(item.name)}
-              className="flex items-center hover:text-blue-600 focus:outline-none w-full font-medium"
+              aria-haspopup={!!item.subMenu}
+              aria-expanded={openDropdown === item.name}
             >
               {item.icon && item.icon}
               {item.name}
@@ -93,23 +96,23 @@ const Navbar = () => {
                   }`}
                 />
               )}
-            </button>
+            </Link>
 
             {/* Dropdown */}
             {item.subMenu && openDropdown === item.name && (
               <ul
+                role="menu"
                 className={`${
                   mobileMenuOpen
-                    ? "ml-4 mt-2 space-y-2" // Mobile dropdown (inline, indented)
-                    : `absolute mt-2 w-48 bg-white shadow-lg rounded-lg py-2 z-50 flex flex-col ${
-                        item.name === "EN" ? "right-0 mr-4" : "left-0"
-                      }`
+                    ? "ml-4 mt-2 space-y-2"
+                    : "absolute mt-2 w-48 bg-white shadow-lg rounded-lg py-2 z-50"
                 }`}
               >
-                {item.subMenu.map((sub, i) => (
-                  <li key={i}>
+                {item.subMenu.map((sub) => (
+                  <li key={sub}>
                     <a
                       href="#"
+                      role="menuitem"
                       className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
                       {sub}

@@ -1,17 +1,49 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
+
+// Lazy-loaded pages/components
+const Home = lazy(() => import("./pages/Home"));
+const ExecutionSection = lazy(() => import("./components/ExecutionSection"));
+const ContactSection = lazy(() => import("./components/ContactSection"));
+const Careers = lazy(() => import("./components/Careers"));
+const Geographics = lazy(() => import("./components/Geographics"));
+const ContactUs = lazy(() => import("./components/ContactUs"));
+const AboutAultum = lazy(() => import("./components/AboutAultum"));
+const WhatWeThink = lazy(() => import("./components/WhatWeThink"));
+const BlogDetail = lazy(() => import("./components/BlogDetail"));
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-grow">
-        <Home />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-grow">
+          <Suspense fallback={<div className="text-center py-10">Loading...</div>}>
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <>
+                    <Home />
+                    <ExecutionSection />
+                    <ContactSection />
+                  </>
+                }
+              />
+              <Route path="/careers" element={<Careers />} />
+              <Route path="/geographics" element={<Geographics />} />
+              <Route path="/contact" element={<ContactUs />} />
+              <Route path="/about" element={<AboutAultum />} />
+              <Route path="/what-we-think" element={<WhatWeThink />} />
+              <Route path="/blog/:id" element={<BlogDetail />} />
+            </Routes>
+          </Suspense>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 
