@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
-import bgImage from "../assets/pic1.jpg";
+// import bgImage from "../assets/pic1.jpg";
+import bgImage from "../assets/pic2.png";
 
 const Home = () => {
   const [loaded, setLoaded] = useState(false);

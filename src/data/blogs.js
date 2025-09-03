@@ -8,6 +8,14 @@ import blog7 from "../assets/blog7.png";
 import blog8 from "../assets/blog8.png";
 import blog9 from "../assets/blog9.png";
 import blog10 from "../assets/blog10.png";
+import blog11 from "../assets/blog11.png";
+import blog12 from "../assets/blog12.png";
+import blog13 from "../assets/blog13.png";
+import blog14 from "../assets/blog14.png";
+import blog15 from "../assets/blog15.png";
+import blog16 from "../assets/blog16.png";
+import blog17 from "../assets/blog17.png";
+import blog18 from "../assets/blog18.png";
 
 const blogs = [
   {
@@ -1685,6 +1693,716 @@ const blogs = [
       },
     ],
     image: blog10,
+  },
+  {
+    id: 11,
+    title:
+      "Building Tomorrow with GrayMaterials: Redefining Modern Construction Materials",
+    metaDescription:
+      "GrayMaterials is redefining the way construction materials are sourced, supplied, and delivered for modern infrastructure.",
+    outline: [
+      {
+        subHeading: "Introduction: A New Era of Construction Materials",
+        description:
+          "The construction industry has always been the backbone of modern civilization. From towering skyscrapers to essential roadways, the demand for high-quality materials is constant. However, traditional sourcing methods often result in delays, inefficiencies, and unsustainable practices.",
+        subDescription:
+          "Enter GrayMaterials—a company that is not just supplying materials but revolutionizing the way the industry thinks about infrastructure. By combining smart sourcing, digital platforms, and eco-friendly practices, GrayMaterials is helping architects, contractors, and developers build smarter, greener, and more resilient projects.",
+      },
+    ],
+    sections: [
+      {
+        Heading: "Why GrayMaterials Stands Out in Modern Infrastructure",
+        subHeading: "A Holistic Approach to Material Management",
+        description:
+          "What sets GrayMaterials apart from conventional suppliers is its holistic approach to construction material management. Through smart sourcing, efficient supply chains, sustainability-first strategies, and collaborative partnerships, GrayMaterials ensures time, cost, and environmental resources are optimized at every stage.",
+      },
+      {
+        Heading: "The Future of Construction with GrayMaterials",
+        subHeading: "Sustainable and Scalable Solutions",
+        description:
+          "The world is shifting toward sustainable infrastructure, and GrayMaterials is leading the charge by adopting digital innovation, supporting green initiatives, and offering scalable solutions for projects of all sizes—from residential homes to mega infrastructure developments.",
+      },
+      {
+        Heading: "How GrayMaterials Redefines the Construction Journey",
+        subHeading: "A Simplified Three-Step Process",
+        description:
+          "GrayMaterials has simplified the often complex journey of acquiring construction materials into a three-step process: innovative sourcing, reliable delivery, and sustainable practices. This ensures clients save time and money while meeting green building standards.",
+      },
+      {
+        Heading: "Real-World Impact of GrayMaterials",
+        subHeading: "Transforming Construction Outcomes",
+        description:
+          "Projects powered by GrayMaterials benefit from faster completion timelines, higher structural integrity with quality-certified materials, improved environmental compliance, and stronger client trust thanks to transparency in sourcing and supply.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is GrayMaterials’ core mission?",
+        answer:
+          "To redefine material sourcing and delivery for modern infrastructure while ensuring sustainability, efficiency, and reliability.",
+      },
+      {
+        question: "Does GrayMaterials support green building projects?",
+        answer:
+          "Yes! GrayMaterials actively supports eco-friendly construction by offering recycled and renewable material options.",
+      },
+      {
+        question: "How does GrayMaterials ensure on-time delivery?",
+        answer:
+          "Through advanced logistics systems and a trusted network of suppliers and transport partners.",
+      },
+      {
+        question: "Can small-scale builders benefit from GrayMaterials?",
+        answer:
+          "Absolutely. Whether it’s a residential build or a large infrastructure project, GrayMaterials provides scalable solutions.",
+      },
+      {
+        question: "Is GrayMaterials involved only in material supply?",
+        answer:
+          "No, the company goes beyond supply—it also streamlines sourcing, ensures compliance, and provides sustainability-driven strategies.",
+      },
+      {
+        question: "How does GrayMaterials stay innovative?",
+        answer:
+          "By embracing digital platforms, adopting green technologies, and continuously optimizing its supply chain.",
+      },
+    ],
+    conclusion: [
+      {
+        one: "Construction is no longer about just bricks and steel—it’s about innovation, responsibility, and sustainability. GrayMaterials is paving the way for a smarter, greener future by reshaping how materials are sourced, supplied, and delivered.",
+        two: "By working with GrayMaterials, contractors and developers are not just erecting buildings—they are building tomorrow’s cities, communities, and opportunities.",
+        three:
+          "To explore more about sustainable construction practices, check out the",
+      },
+      {
+        label: "World Green Building Council",
+        url: "https://www.worldgbc.org",
+      },
+    ],
+    image: blog11,
+  },
+  {
+    id: 12,
+    title:
+      "Retrofitting Vehicles: Converting Petrol and Diesel Cars into Electric or Hybrid Machines",
+    metaDescription:
+      "Discover the process of retrofitting petrol and diesel vehicles into electric or hybrid models. Learn the benefits, costs, challenges, and the future of green mobility.",
+    outline: [
+      {
+        subHeading: "Introduction to Retrofitting Vehicles",
+        description:
+          "The global shift to sustainable mobility is underway, but millions of petrol and diesel cars still dominate our roads. Scrapping them isn’t sustainable—retrofitting is the smarter alternative. By converting fossil fuel vehicles into electric or hybrid models, we can extend their lifespan, reduce emissions, and accelerate the transition to green transportation.",
+        subDescription:
+          "Retrofitting transforms existing vehicles into eco-friendly machines, bridging the gap between today’s fuel dependence and tomorrow’s electric future.",
+      },
+    ],
+    sections: [
+      {
+        Heading: "Why Retrofitting Matters",
+        subHeading: "Benefits of Converting Vehicles",
+        description:
+          "Retrofitting offers a host of benefits, including zero or reduced tailpipe emissions, lower fuel costs, reduced maintenance, and alignment with global carbon neutrality goals. Instead of scrapping older vehicles, it gives them a second life—helping both the planet and your pocket.",
+      },
+      {
+        subHeading: "Supporting Green Policies",
+        description:
+          "Countries around the world are encouraging retrofitting as part of their clean mobility initiatives. India, the EU, and the U.S. are all pushing for conversions to meet 2030 emission targets.",
+      },
+      {
+        Heading: "The Retrofitting Process: Step by Step",
+        subHeading: "How Vehicles Are Converted",
+        description:
+          "Retrofitting involves a detailed transformation process: assessing the vehicle’s feasibility, removing the petrol/diesel engine, installing an electric motor and battery, adding hybrid kits if required, and integrating smart control systems. The result is a cleaner, more efficient ride.",
+      },
+      {
+        Heading: "Types of Retrofitting",
+        subHeading: "Electric, Hybrid, and Plug-In Options",
+        description:
+          "There are three main retrofit options: full electric conversion, hybrid conversion, and plug-in hybrid add-ons. Each has different levels of performance, cost, and flexibility depending on user needs.",
+      },
+      {
+        Heading: "Cost and Return on Investment",
+        subHeading: "Is Retrofitting Worth It?",
+        description:
+          "Retrofitting costs vary—small cars range between $5,000–$8,000, while SUVs and trucks can exceed $10,000. Although upfront costs are high, lower fuel and maintenance expenses often recover the investment within 3–5 years.",
+      },
+      {
+        Heading: "Challenges of Retrofitting",
+        subHeading: "Limitations to Consider",
+        description:
+          "Despite its promise, retrofitting faces challenges such as high battery costs, limited storage space, performance trade-offs, and regulatory approvals. Still, advances in battery technology and government incentives are reducing these barriers.",
+      },
+      {
+        Heading: "Global Trends in Retrofitting",
+        subHeading: "How the World is Adapting",
+        description:
+          "In India, EV retrofitting is legally recognized with certified agencies. Europe offers subsidies and tax rebates, while U.S. startups are retrofitting classic cars and pickup trucks into electric powerhouses.",
+      },
+      {
+        Heading: "Is Retrofitting Right for You?",
+        subHeading: "Key Considerations",
+        description:
+          "Retrofitting is ideal for vehicle owners planning to keep their cars for 5+ years, those eligible for incentives, and those with structurally sound vehicles. For others, purchasing a new EV may be a better long-term option.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is retrofitting legal everywhere?",
+        answer:
+          "No. Retrofitting regulations differ by country. Always check local policies and certification requirements before converting a vehicle.",
+      },
+      {
+        question: "Can all vehicles be retrofitted?",
+        answer:
+          "Not all. Very old, lightweight, or damaged vehicles may not qualify due to safety and structural concerns.",
+      },
+      {
+        question: "How long does retrofitting take?",
+        answer:
+          "Typically between 2–6 weeks, depending on the type of vehicle and retrofit complexity.",
+      },
+      {
+        question: "Does retrofitting affect insurance?",
+        answer:
+          "Yes, insurance premiums may change. Some insurers even offer green discounts for converted vehicles.",
+      },
+      {
+        question: "Can retrofitted cars use fast charging?",
+        answer:
+          "Yes, provided the retrofit includes DC fast-charging capabilities.",
+      },
+    ],
+    conclusion: [
+      {
+        one: "Retrofitting is more than a trend—it’s a sustainable solution for giving fossil fuel vehicles a second life. By converting petrol and diesel cars into electric or hybrid models, owners save money while reducing emissions.",
+        two: "Though challenges exist, technology advancements and supportive policies are making retrofitting more accessible and practical.",
+        three:
+          "To explore more about sustainable transport policies, check out the",
+      },
+      {
+        label: "International Energy Agency’s Clean Mobility Transition",
+        url: "https://www.iea.org/topics/transport",
+      },
+    ],
+    image: blog18,
+  },
+  {
+    id: 13,
+    title:
+      "The Ultimate Guide to Red Chilli Varieties: From Kashmiri to Byadagi",
+    metaDescription:
+      "Explore the most popular red chilli varieties, from Kashmiri to Byadagi, with insights into their heat levels, culinary uses, and GI tag significance.",
+    outline: [
+      {
+        subHeading: "Introduction: Why Red Chillies Matter in Global Cuisine",
+        description:
+          "Red chillies are more than just a spice. They bring color, heat, aroma, and character to dishes worldwide. From India’s masala curries to Mexico’s mole sauces, red chillies define regional cuisines. Beyond taste, they also carry economic, cultural, and medicinal importance, making them one of the most valued crops globally.",
+        subDescription:
+          "They aren’t just about spice—they’re about culture, heritage, and nutrition.",
+      },
+    ],
+    sections: [
+      {
+        Heading: "Understanding Red Chillies: Color, Flavor, and Heat",
+        subHeading: "The Scoville Heat Scale",
+        description:
+          "Not all red chillies are created equal. Some are prized for their deep red color (like Kashmiri), others for aroma and oil content (like Byadagi), and some for fiery spice levels (like Guntur and Dalle Khursani). The heat of chillies is measured in Scoville Heat Units (SHU), which rank peppers based on capsaicin content—the compound responsible for their spiciness.",
+      },
+      {
+        Heading: "Popular Red Chilli Varieties in India",
+        subHeading: "Kashmiri Red Chilli – Mild Heat, Rich Color",
+        description:
+          "Scoville Heat: 1,000 – 2,000 SHU | Flavor: Mild and slightly smoky | Uses: Ideal for gravies, curries, and tandoori marinades due to its bright red hue. | GI Tag: GI-certified to protect authenticity.",
+      },
+      {
+        subHeading: "Byadagi Chilli – Aroma and Oleoresin Powerhouse",
+        description:
+          "Scoville Heat: 8,000 – 15,000 SHU | Flavor: Earthy, less pungent but high in color value. | Uses: Masalas, sambars, and oleoresin extraction (natural coloring). | GI Tag: GI-tagged in Karnataka.",
+      },
+      {
+        subHeading: "Guntur Chilli – Bold Flavor and Heat",
+        description:
+          "Scoville Heat: 30,000 – 50,000 SHU | Flavor: Spicy, sharp, and robust. | Uses: A staple in Andhra cuisine and a major export variety.",
+      },
+      {
+        subHeading: "Bhiwapur Chilli – The Pride of Maharashtra",
+        description:
+          "Scoville Heat: 5,000 – 15,000 SHU | Flavor: Balanced flavor with medium spice. | Uses: Key ingredient in chutneys, masalas, and pickles.",
+      },
+      {
+        subHeading: "Dalle Khursani – Fiery Treasure of Sikkim",
+        description:
+          "Scoville Heat: 100,000+ SHU | Flavor: Intense, fruity, and fiery. | Uses: Pickles and fermented chilli pastes. | GI Tag: GI-tagged in Sikkim and Nepal.",
+      },
+      {
+        Heading: "Red Chillies Across the World",
+        subHeading: "International Varieties",
+        description:
+          "Mexican Ancho and Guajillo (mild, used in mole), Thai Bird’s Eye (extremely spicy, Southeast Asia), and African Peri-Peri (tangy, used in marinades and sauces) showcase global chilli diversity.",
+      },
+      {
+        Heading: "Scoville Heat Scale: Measuring the Spice",
+        subHeading: "Understanding SHU Levels",
+        description:
+          "From Kashmiri at 1,000 SHU to Dalle Khursani at over 100,000 SHU, the Scoville scale helps chefs, traders, and consumers choose the right chilli for their needs.",
+      },
+      {
+        Heading: "Culinary Uses of Dry Red Chillies",
+        subHeading: "Forms and Applications",
+        description:
+          "Whole chillies are used in tempering and tadkas, ground powder adds heat and rich color to gravies, and chilli pastes are essential in marinades, sauces, and chutneys.",
+      },
+      {
+        Heading: "The Significance of GI Tags in Chillies",
+        subHeading: "Protecting Authenticity",
+        description:
+          "GI tags ensure authenticity, protect farmers’ interests, and boost export value. Kashmiri and Byadagi chillies benefit from this recognition.",
+      },
+      {
+        Heading: "Health Benefits of Red Chillies",
+        subHeading: "Nutrition and Wellness",
+        description:
+          "Red chillies help boost metabolism, aid digestion, provide Vitamin C and antioxidants, relieve pain through capsaicin, and support heart health.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Which red chilli is the least spicy?",
+        answer: "Kashmiri red chilli, known for mild heat but rich color.",
+      },
+      {
+        question: "Which red chilli is the spiciest in India?",
+        answer: "Dalle Khursani, with over 100,000 SHU.",
+      },
+      {
+        question: "Why are GI tags important for chillies?",
+        answer:
+          "They protect authenticity, preserve farming traditions, and increase farmers’ income.",
+      },
+      {
+        question: "Can red chillies help in weight loss?",
+        answer:
+          "Yes, capsaicin boosts metabolism and may aid in weight management.",
+      },
+      {
+        question: "What’s the best red chilli for curries?",
+        answer:
+          "Kashmiri and Byadagi are preferred for their balance of color and flavor.",
+      },
+    ],
+    conclusion: [
+      {
+        one: "From the mild Kashmiri to the fiery Dalle Khursani, red chillies add depth, vibrancy, and character to food across cultures.",
+        two: "Whether you’re a chef, foodie, or spice trader, understanding these varieties helps celebrate their diversity and importance.",
+        three: "To learn more about chilli farming and trade, visit the",
+      },
+      {
+        label: "Spices Board of India",
+        url: "https://www.indianspices.com",
+      },
+    ],
+    image: blog14,
+  },
+  {
+    id: 14,
+    title: "Health Benefits of Red Chilli and the Science Behind Capsaicin",
+    metaDescription:
+      "Discover the health benefits of red chilli and the science behind capsaicin, including its effects on metabolism, pain relief, and immunity.",
+    outline: [
+      {
+        subHeading: "Introduction: Why Red Chillies Deserve a Closer Look",
+        description:
+          "Red chillies are loved across the globe for their fiery taste and vibrant color. But beyond the heat lies a fascinating compound called capsaicin—the chemical that makes chillies hot and packs powerful health benefits. From boosting metabolism to relieving pain and strengthening immunity, red chillies are more than just a kitchen staple.",
+        subDescription:
+          "Let’s dive into the science-backed benefits of red chillies and why adding them to your diet could improve your overall well-being.",
+      },
+    ],
+    sections: [
+      {
+        Heading: "What is Capsaicin? The Compound Behind the Heat",
+        subHeading: "Understanding the Science",
+        description:
+          "Capsaicin is the active ingredient in red chillies that gives them their spicy kick. It interacts with sensory neurons, triggering the burning sensation we feel when eating spicy food. Beyond taste, capsaicin influences metabolism, inflammation, and nerve signals—making it a powerful compound in both nutrition and medicine.",
+      },
+      {
+        Heading: "Metabolism Boost: How Red Chillies Aid in Weight Management",
+        subHeading: "Thermogenesis and Fat Burning",
+        description:
+          "Capsaicin promotes thermogenesis, a process where the body generates heat by burning calories. Studies suggest that consuming spicy food may slightly increase daily energy expenditure, supporting weight management.",
+      },
+      {
+        subHeading: "Appetite Regulation",
+        description:
+          "Capsaicin may help reduce appetite, leading to lower calorie intake. Research shows that people who consume capsaicin-rich meals tend to eat fewer calories in subsequent meals.",
+      },
+      {
+        Heading: "Pain Relief Properties of Capsaicin",
+        subHeading: "Topical Creams for Joint and Muscle Pain",
+        description:
+          "Capsaicin is widely used in topical creams and gels to relieve arthritis, muscle pain, and nerve discomfort. It works by reducing the intensity of pain signals sent to the brain.",
+      },
+      {
+        subHeading: "Nerve Desensitization and Chronic Pain",
+        description:
+          "Long-term use of capsaicin can desensitize pain receptors, offering relief for chronic conditions like neuropathy, arthritis, and fibromyalgia.",
+      },
+      {
+        Heading: "Red Chillies and Immunity: Strengthening the Body",
+        subHeading: "Vitamin C and Antioxidants",
+        description:
+          "Red chillies are packed with Vitamin C—crucial for boosting immunity, fighting infections, and promoting skin health.",
+      },
+      {
+        subHeading: "Anti-Inflammatory Effects",
+        description:
+          "Capsaicin exhibits anti-inflammatory properties, helping to reduce the risk of chronic diseases while supporting overall immunity.",
+      },
+      {
+        Heading: "Other Health Benefits of Red Chillies",
+        subHeading: "Heart Health and Blood Circulation",
+        description:
+          "Capsaicin improves blood circulation and may help reduce cholesterol, lowering the risk of heart disease.",
+      },
+      {
+        subHeading: "Digestive Aid and Gut Health",
+        description:
+          "While spicy food is often blamed for digestive issues, moderate chilli consumption can actually stimulate digestive enzymes and support gut health.",
+      },
+      {
+        subHeading: "Potential Anti-Cancer Properties",
+        description:
+          "Preliminary studies suggest that capsaicin may slow the growth of cancer cells by triggering apoptosis (cell death), though more research is needed.",
+      },
+      {
+        Heading: "Risks and Side Effects of Overconsumption",
+        subHeading: "When Spice Becomes Too Much",
+        description:
+          "Excessive consumption may cause stomach irritation or acid reflux. People with ulcers or digestive issues should limit intake. Overuse of capsaicin creams can also lead to skin irritation. Moderation is key.",
+      },
+      {
+        Heading: "Best Ways to Add Red Chillies to Your Diet",
+        subHeading: "Practical Tips for Everyday Meals",
+        description:
+          "Use fresh or dry chillies in curries, stir-fries, and sauces. Sprinkle chilli powder for flavor and color. Add to soups, stews, or marinades for extra heat. Try fermented chilli pastes for a probiotic and spicy kick.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can eating red chillies help with weight loss?",
+        answer:
+          "Yes, capsaicin boosts metabolism and reduces appetite, aiding weight management.",
+      },
+      {
+        question: "Are red chillies good for immunity?",
+        answer: "Absolutely. They are rich in Vitamin C and antioxidants.",
+      },
+      {
+        question: "Can capsaicin relieve pain?",
+        answer:
+          "Yes, it’s used in creams for arthritis, muscle pain, and nerve pain relief.",
+      },
+      {
+        question: "Are red chillies safe for everyone?",
+        answer:
+          "In moderation, yes. But people with digestive disorders should limit intake.",
+      },
+      {
+        question: "Do red chillies have anti-cancer properties?",
+        answer: "Preliminary studies suggest so, but more research is needed.",
+      },
+    ],
+    conclusion: [
+      {
+        one: "Red chillies aren’t just about heat—they’re about health, healing, and vitality.",
+        two: "With capsaicin at their core, they boost metabolism, relieve pain, and strengthen immunity.",
+        three:
+          "By adding red chillies to your meals in moderation, you’re spicing up your food while giving your body a natural health boost.",
+      },
+    ],
+    image: blog15,
+  },
+  {
+    id: 15,
+    title: "The Ultimate Guide to Dry Grains: Types, Nutrition, and Uses",
+    metaDescription:
+      "Discover the ultimate guide to dry grains including cereals, pulses, and millets. Learn their nutrition, health benefits, culinary uses, and role in food security.",
+    outline: [
+      {
+        subHeading:
+          "Introduction: Why Dry Grains Are the Foundation of Global Diets",
+        description:
+          "From the steaming bowls of rice in Asia to the hearty breads of Europe, dry grains are at the core of human diets worldwide. They are affordable, versatile, and rich in nutrients, making them the staple food for billions of people.",
+        subDescription:
+          "Grains not only fill our plates but also shape economies, farming systems, and cultural traditions. This guide explores the types of dry grains, their nutritional value, and how they contribute to both health and food security.",
+      },
+    ],
+    sections: [
+      {
+        Heading: "What Are Dry Grains?",
+        subHeading: "Seeds That Sustain the World",
+        description:
+          "Dry grains are seeds harvested from cereal, legume, and millet plants that are stored in dried form for long shelf life, easy transport, and diverse uses. Unlike fresh produce, dry grains can last for months without refrigeration, making them essential in global food systems.",
+      },
+      {
+        Heading: "Types of Dry Grains",
+        subHeading: "Cereals: Rice, Wheat, Maize, and Barley",
+        description:
+          "Rice provides quick energy and versatility, wheat is the foundation for bread and baked goods, maize is used for food, feed, and biofuel, while barley is popular in soups, stews, and beer production.",
+      },
+      {
+        subHeading: "Pulses: Lentils, Beans, Chickpeas, and Peas",
+        description:
+          "Lentils are protein-rich and cook quickly, beans are high in fiber and antioxidants, chickpeas are the base for hummus and curries, while peas are nutrient-dense and widely used in soups and stews.",
+      },
+      {
+        subHeading:
+          "Millets: Pearl Millet, Finger Millet, Foxtail Millet, and Sorghum",
+        description:
+          "Pearl millet is high in iron, finger millet is rich in calcium, foxtail millet is gluten-free and easy to digest, and sorghum is a resilient crop thriving in dry regions.",
+      },
+      {
+        Heading: "Nutritional Value of Dry Grains",
+        subHeading: "Carbohydrates and Energy",
+        description:
+          "Cereals like rice and wheat are primary carbohydrate sources, providing the body with sustained energy.",
+      },
+      {
+        subHeading: "Protein Power of Pulses",
+        description:
+          "Pulses are often called the 'poor man’s meat' as they provide high-quality plant protein, vital for vegetarians and vegans.",
+      },
+      {
+        subHeading: "Vitamins, Minerals, and Fiber",
+        description:
+          "Dry grains contain B vitamins, iron, magnesium, and fiber, supporting metabolism, heart health, and digestion.",
+      },
+      {
+        subHeading: "Gluten-Free and Ancient Grain Options",
+        description:
+          "Millets, quinoa, and sorghum are naturally gluten-free, making them excellent for those with celiac disease or gluten intolerance.",
+      },
+      {
+        Heading: "Culinary Uses of Dry Grains",
+        subHeading: "Everyday Staples: Rice and Wheat Dishes",
+        description:
+          "Rice turns into biryanis, risottos, and sushi, while wheat becomes bread, chapati, and pasta.",
+      },
+      {
+        subHeading: "Traditional Recipes with Pulses",
+        description:
+          "Indian dals, Middle Eastern hummus, and Latin American bean stews showcase the global importance of pulses.",
+      },
+      {
+        subHeading: "Millets in Modern Healthy Diets",
+        description:
+          "Millets are making a comeback as superfoods, featured in porridges, cookies, and gluten-free breads.",
+      },
+      {
+        Heading: "Health Benefits of Dry Grains",
+        subHeading: "Heart Health and Cholesterol Control",
+        description:
+          "Whole grains lower cholesterol and reduce the risk of heart disease.",
+      },
+      {
+        subHeading: "Digestive Health and Weight Management",
+        description:
+          "The fiber in dry grains promotes satiety, aids digestion, and supports weight control.",
+      },
+      {
+        subHeading: "Plant-Based Protein for Vegetarians and Vegans",
+        description:
+          "Pulses and millets provide essential amino acids, making them vital for vegetarian diets.",
+      },
+      {
+        Heading: "The Role of Dry Grains in Food Security",
+        subHeading: "Stable and Reliable Food Supplies",
+        description:
+          "Dry grains can be stored for long periods, reducing hunger and malnutrition globally.",
+      },
+      {
+        Heading: "Storage and Preservation of Dry Grains",
+        subHeading: "Preventing Spoilage and Nutrient Loss",
+        description:
+          "Proper storage in cool, dry, and airtight conditions prevents spoilage and pests. Advanced silos and cold storage improve shelf life and reduce post-harvest losses.",
+      },
+      {
+        Heading: "Dry Grains in Global Trade and Economy",
+        subHeading: "Staples of International Markets",
+        description:
+          "Rice, wheat, and maize are key commodities in global trade, influencing food policies and economies worldwide.",
+      },
+      {
+        Heading: "Future of Dry Grains: Sustainability and Climate Resilience",
+        subHeading: "Adapting for Tomorrow’s Challenges",
+        description:
+          "Millets and sorghum are climate-resilient crops that thrive in harsh conditions, requiring less water. Promoting these grains ensures sustainable agriculture and food security.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Which dry grain is best for weight loss?",
+        answer:
+          "Millets and pulses are high in fiber and protein, making them excellent for weight management.",
+      },
+      {
+        question: "Are dry grains gluten-free?",
+        answer:
+          "Some, like rice, millets, quinoa, and sorghum, are gluten-free. Wheat and barley contain gluten.",
+      },
+      {
+        question: "How long can dry grains be stored?",
+        answer: "With proper storage, most grains last 6 months to 2 years.",
+      },
+      {
+        question: "Can dry grains improve heart health?",
+        answer:
+          "Yes, whole grains reduce cholesterol and support cardiovascular health.",
+      },
+      {
+        question: "Why are millets called superfoods?",
+        answer:
+          "They are nutrient-rich, gluten-free, and environmentally sustainable.",
+      },
+    ],
+    conclusion: [
+      {
+        one: "Dry grains are more than pantry staples—they are pillars of nutrition, culture, and sustainability.",
+        two: "From providing nourishment to driving trade, their importance is undeniable.",
+        three:
+          "As the world embraces sustainable diets, cereals, pulses, and millets will continue shaping global food security.",
+      },
+    ],
+    image: blog16,
+  },
+  {
+    id: 16,
+    title: "How to Store and Cook Dry Grains for Maximum Nutrition",
+    metaDescription:
+      "Learn how to store and cook dry grains the right way. Discover soaking, sprouting, and cooking hacks to retain nutrition and flavor.",
+    outline: [
+      {
+        subHeading:
+          "Introduction: The Power of Dry Grains in a Healthy Lifestyle",
+        description:
+          "Dry grains—whether rice, wheat, lentils, or millets—are nutritional powerhouses that form the foundation of balanced diets worldwide.",
+        subDescription:
+          "Packed with fiber, protein, vitamins, and minerals, they are versatile enough to fit into any meal plan. But improper storage and cooking can strip away valuable nutrients. By learning the best methods for handling grains, you can unlock their full potential.",
+      },
+    ],
+    sections: [
+      {
+        Heading: "Why Proper Storage and Cooking Matter",
+        subHeading: "The Importance of Correct Handling",
+        description:
+          "Grains are living seeds. When exposed to moisture, light, or poor cooking methods, they lose nutrition and flavor. Proper handling ensures nutrient retention, better digestibility, longer shelf life, and enhanced taste.",
+      },
+      {
+        Heading: "Best Storage Hacks for Dry Grains",
+        subHeading: "Airtight Containers and Glass Jars",
+        description:
+          "Store grains in airtight glass or BPA-free containers to protect against moisture and pests.",
+      },
+      {
+        subHeading: "Using Oxygen Absorbers and Vacuum-Sealing",
+        description:
+          "For bulk storage, oxygen absorbers or vacuum-sealing extend shelf life by reducing oxidation.",
+      },
+      {
+        subHeading: "Cool, Dark, and Dry Places",
+        description:
+          "Store grains away from sunlight and heat—pantry shelves or cabinets work best.",
+      },
+      {
+        subHeading: "Freezing Grains for Long-Term Storage",
+        description:
+          "Freeze grains for 1–2 weeks before storing to naturally kill insect eggs.",
+      },
+      {
+        Heading: "Preparing Dry Grains Before Cooking",
+        subHeading: "Sorting and Cleaning",
+        description:
+          "Check for stones, husks, or dust before washing thoroughly.",
+      },
+      {
+        subHeading: "Soaking Grains: Why and How",
+        description:
+          "Soaking reduces cooking time, improves digestibility, and removes anti-nutrients like phytic acid. Rice: 30 mins, Beans & Chickpeas: 8–12 hours, Millets: 2–4 hours.",
+      },
+      {
+        subHeading: "Sprouting for Maximum Nutritional Boost",
+        description:
+          "Sprouting activates enzymes, increases vitamin C, B vitamins, and amino acids. Rinse soaked grains, keep in a damp cloth or jar for 1–2 days, then use in salads, soups, or stir-fries.",
+      },
+      {
+        Heading: "Cooking Methods That Preserve Nutrition",
+        subHeading: "Steaming vs. Boiling",
+        description:
+          "Steaming retains more nutrients compared to boiling, which may leach vitamins and minerals.",
+      },
+      {
+        subHeading: "Pressure Cooking: Quick and Nutritious",
+        description:
+          "Pressure cooking preserves protein and fiber while reducing cooking time—ideal for beans and lentils.",
+      },
+      {
+        subHeading: "Slow Cooking for Flavor and Texture",
+        description:
+          "Slow cooking enhances flavor but may slightly reduce vitamin levels. Pair with vegetables to balance nutrients.",
+      },
+      {
+        Heading: "Flavor Pairings with Dry Grains",
+        subHeading: "Herbs, Spices, and Healthy Oils",
+        description:
+          "Rice pairs with saffron, cumin, coconut oil; Lentils with garlic, turmeric, ginger; Millets with sesame seeds and olive oil.",
+      },
+      {
+        subHeading: "Grains in Global Cuisines",
+        description:
+          "Indian dal with rice, Middle Eastern hummus with chickpeas, Italian risotto with Arborio rice, African sorghum porridge.",
+      },
+      {
+        Heading: "Common Mistakes to Avoid",
+        subHeading: "Pitfalls in Storage and Cooking",
+        description:
+          "Mistakes include skipping soaking for pulses, storing in plastic bags, overcooking grains, and not rotating stock (FIFO method).",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I have to soak all grains before cooking?",
+        answer:
+          "Not all. Hard pulses like beans need soaking, but rice and millets can be cooked directly after rinsing.",
+      },
+      {
+        question: "Can I sprout all grains?",
+        answer:
+          "Most pulses and millets can be sprouted, but avoid sprouting polished rice or heavily processed grains.",
+      },
+      {
+        question: "How long can I store dry grains?",
+        answer:
+          "Most grains last 6–12 months if stored properly. Whole grains with bran may spoil faster than refined ones.",
+      },
+      {
+        question: "What’s the healthiest way to cook grains?",
+        answer:
+          "Steaming and pressure cooking preserve the most nutrients while ensuring good digestibility.",
+      },
+      {
+        question: "Can dry grains be frozen after cooking?",
+        answer:
+          "Yes, cooked grains like rice, beans, and quinoa freeze well for up to 3 months.",
+      },
+    ],
+    conclusion: [
+      {
+        one: "Dry grains are nutritional treasures, but only if handled with care.",
+        two: "The right storage, soaking, sprouting, and cooking methods maximize both nutrition and flavor.",
+        three:
+          "By treating grains as more than just pantry staples, you make them a lifelong superfood for health, sustainability, and taste.",
+      },
+    ],
+    image: blog17,
   },
 ];
 

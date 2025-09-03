@@ -1,7 +1,12 @@
-import personImage from "../assets/pic2.jpg";
-import img1 from "../assets/pic3.jpg";
-import img2 from "../assets/pic4.jpg";
-import img3 from "../assets/pic5.jpg";
+// import personImage from "../assets/pic2.jpg";
+// import img1 from "../assets/pic3.jpg";
+// import img2 from "../assets/pic4.jpg";
+// import img3 from "../assets/pic5.jpg";
+
+import personImage from "../assets/pic6.png";
+import img1 from "../assets/pic7.png";
+import img2 from "../assets/pic8.png";
+import img3 from "../assets/pic9.png";
 
 import brand1 from "../assets/graymaterial2.png";
 import brand2 from "../assets/cobrother.png";
