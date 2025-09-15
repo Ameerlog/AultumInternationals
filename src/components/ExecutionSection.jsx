@@ -12,8 +12,10 @@ import brand1 from "../assets/graymaterial2.png";
 import brand2 from "../assets/cobrother.png";
 import brand3 from "../assets/batteryfy.png";
 import brand4 from "../assets/Picture1.png";
-import brand5 from "../assets/drychilli.png";
-import brand6 from "../assets/drygrains.png";
+import brand7 from "../assets/Aultum-cs.png";
+import brand8 from "../assets/aultum-dc.png";
+import brand9 from "../assets/aultum-dg.png";
+import brand10 from "../assets/Aultum-pd.png";
 
 //  Extracted data arrays
 const quotes = [
@@ -31,7 +33,24 @@ const quotes = [
   },
 ];
 
-const brands = [brand1, brand2, brand3, brand4, brand5, brand6];
+const brands = [
+  brand1,
+  brand2,
+  brand3,
+  brand4,
+  brand7,
+  brand8,
+  brand9,
+  brand10,
+  brand1,
+  brand2,
+  brand3,
+  brand4,
+  brand7,
+  brand8,
+  brand9,
+  brand10,
+];
 
 const QuoteCard = ({ img, text }) => (
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
