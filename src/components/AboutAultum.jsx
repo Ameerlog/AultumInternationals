@@ -4,8 +4,10 @@ import brand1 from "../assets/graymaterial2.png";
 import brand2 from "../assets/cobrother.png";
 import brand3 from "../assets/batteryfy.png";
 import brand4 from "../assets/Picture1.png";
-import brand5 from "../assets/drychilli.png";
-import brand6 from "../assets/drygrains.png";
+import brand5 from "../assets/aultum-dc.png";
+import brand6 from "../assets/aultum-dg.png";
+import brand9 from "../assets/Aultum-cs.png";
+import brand10 from "../assets/Aultum-pd.png";
 const BrandCard = ({ img, name, description }) => (
   <div className="bg-gray-50 shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
     <img
@@ -55,6 +57,16 @@ export default function AboutAultum() {
       {
         name: "Dry Grains",
         img: brand6,
+        description: "Efficient storage and distribution of dry grains.",
+      },
+      {
+        name: "Co Sister",
+        img: brand9,
+        description: "Efficient storage and distribution of dry grains.",
+      },
+      {
+        name: "Pregadays",
+        img: brand10,
         description: "Efficient storage and distribution of dry grains.",
       },
     ],
