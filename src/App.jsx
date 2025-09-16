@@ -13,6 +13,9 @@ const ContactUs = lazy(() => import("./components/ContactUs"));
 const AboutAultum = lazy(() => import("./components/AboutAultum"));
 const WhatWeThink = lazy(() => import("./components/WhatWeThink"));
 const BlogDetail = lazy(() => import("./components/BlogDetail"));
+const Disclaimer = lazy(() => import("./pages/Disclaimer"));
+const Privacy = lazy(() => import("./pages/Privacy"));
+const Policy = lazy(() => import("./pages/Policy"));
 
 const App = () => {
   return (
@@ -20,7 +23,9 @@ const App = () => {
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
-          <Suspense fallback={<div className="text-center py-10">Loading...</div>}>
+          <Suspense
+            fallback={<div className="text-center py-10">Loading...</div>}
+          >
             <Routes>
               <Route
                 path="/"
@@ -38,6 +43,9 @@ const App = () => {
               <Route path="/about" element={<AboutAultum />} />
               <Route path="/what-we-think" element={<WhatWeThink />} />
               <Route path="/blog/:id" element={<BlogDetail />} />
+              <Route path="/disclaimer" element={<Disclaimer />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/policy" element={<Policy />} />
             </Routes>
           </Suspense>
         </main>

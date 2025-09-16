@@ -3,7 +3,7 @@ import bgImage from "../assets/hero-image.png";
 import brand1 from "../assets/graymaterial2.png";
 import brand2 from "../assets/cobrother.png";
 import brand3 from "../assets/batteryfy.png";
-import brand4 from "../assets/Picture1.png";
+import brand4 from "../assets/checkdam3.png";
 import brand5 from "../assets/aultum-dc.png";
 import brand6 from "../assets/aultum-dg.png";
 import brand9 from "../assets/Aultum-cs.png";
@@ -27,7 +27,7 @@ export default function AboutAultum() {
   const brands = useMemo(
     () => [
       {
-        name: "Graymaterials",
+        name: "Gray material",
         img: brand1,
         description:
           "Supplier of high-quality construction materials like M-Sand, cement, and more.",
@@ -45,7 +45,8 @@ export default function AboutAultum() {
       {
         name: "Checkdam",
         img: brand4,
-        description: "Smart water conservation and rural infrastructure.",
+        description:
+          "Smart irrigation and Agri solutions for farmers everywhere.",
       },
 
       {
@@ -62,12 +63,12 @@ export default function AboutAultum() {
       {
         name: "Co Sister",
         img: brand9,
-        description: "Efficient storage and distribution of dry grains.",
+        description: "Beauty and care products for every woman.",
       },
       {
         name: "Pregadays",
         img: brand10,
-        description: "Efficient storage and distribution of dry grains.",
+        description: "Pregnancy care essentials for every mom-to-be.",
       },
     ],
     []

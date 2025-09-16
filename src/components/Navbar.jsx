@@ -10,12 +10,7 @@ const Navbar = () => {
   // ✅ Memoize menu items to prevent re-creation on re-renders
   const menuItems = useMemo(
     () => [
-      {
-        name: "What We Do",
-        subMenu: ["Consulting", "Technology", "Operations"],
-        showDropdownIcon: true,
-        navigateTo: "/",
-      },
+      { name: "What We Do", navigateTo: "/" },
       { name: "What We Think", navigateTo: "/what-we-think" },
       { name: "About Aultum", navigateTo: "/about" },
       { name: "Careers", navigateTo: "/careers" },

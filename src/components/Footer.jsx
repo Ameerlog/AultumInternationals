@@ -22,13 +22,13 @@ const Footer = () => {
   const socialLinks = useMemo(
     () => [
       {
-        href: "https://www.facebook.com/batteryfy",
+        href: "https://www.facebook.com/people/Batteryfy-Life/61576253405425/",
         icon: <FaFacebookF className="text-white text-lg" />,
         hover: "hover:bg-green-600",
         label: "Facebook",
       },
       {
-        href: "https://www.instagram.com/batteryfy",
+        href: "https://www.instagram.com/batteryfy_official/",
         icon: <FaInstagram className="text-white text-lg" />,
         hover: "hover:bg-pink-500",
         label: "Instagram",
@@ -40,7 +40,7 @@ const Footer = () => {
         label: "LinkedIn",
       },
       {
-        href: "https://www.youtube.com/@batteryfy",
+        href: "https://www.youtube.com/@Batteryfy",
         icon: <FaYoutube className="text-white text-lg" />,
         hover: "hover:bg-red-600",
         label: "YouTube",
