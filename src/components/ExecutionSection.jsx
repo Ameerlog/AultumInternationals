@@ -12,7 +12,7 @@ import brand8 from "../assets/aultum-dc.png";
 import brand9 from "../assets/aultum-dg.png";
 import brand10 from "../assets/Aultum-pd.png";
 
-//  Extracted data arrays
+// Quotes Data
 const quotes = [
   {
     img: img1,
@@ -28,15 +28,8 @@ const quotes = [
   },
 ];
 
+// Brands Data
 const brands = [
-  brand1,
-  brand2,
-  brand3,
-  brand4,
-  brand7,
-  brand8,
-  brand9,
-  brand10,
   brand1,
   brand2,
   brand3,
@@ -64,7 +57,7 @@ const BrandLogo = ({ src, alt }) => (
   <img
     src={src}
     alt={alt}
-    className="w-44 aspect-video object-contain flex-shrink-0"
+    className="w-32 sm:w-40 md:w-44 aspect-video object-contain flex-shrink-0"
   />
 );
 
@@ -108,8 +101,10 @@ const ExecutionSection = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             Our Work in Action
           </h3>
-          <div className="relative overflow-hidden">
-            <div className="flex gap-6 animate-scroll justify-center items-center">
+
+          {/* Mobile: Scrollable | Desktop: Animated Marquee */}
+          <div className="overflow-x-auto sm:overflow-hidden">
+            <div className="flex gap-6  sm:gap-10 sm:animate-scroll">
               {[...brands, ...brands].map((brand, index) => (
                 <BrandLogo
                   key={index}
